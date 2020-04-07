@@ -12,9 +12,11 @@
 		<version>2.2.6.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
+
 	<groupId>springframework</groupId>
 	<artifactId>pet-clinic</artifactId>
-	<version>0.0.5-SNAPSHOT</version>
+	<version>0.0.1-SNAPSHOT</version>
+
 	<name>pet-clinic</name>
 	<description>Pet Clinic Project</description>
 
@@ -67,7 +69,7 @@
 
 	<scm>
 		<developerConnection>scm:git:git@github.com:anampetrea99/pet-clinic.git</developerConnection>
-		<tag>pet-clinic-0.0.5</tag>
+		<tag>pet-clinic-0.0.1</tag>
 	</scm>
 
 </project>
