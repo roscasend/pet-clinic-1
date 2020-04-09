@@ -1,6 +1,5 @@
 package springframework.petclinic.services.map;
 
-import com.sun.xml.bind.v2.model.core.ID;
 import springframework.petclinic.model.Vet;
 import springframework.petclinic.services.CrudService;
 
@@ -29,7 +28,7 @@ public class VetServiceMap extends AbstractMapService<Vet, Long> implements Crud
     }
 
     @Override
-    public void deleteById(ID id) {
+    public void deleteById(Long id) {
         super.deleteById(id);
     }
 }
